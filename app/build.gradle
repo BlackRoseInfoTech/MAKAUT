@@ -2,13 +2,13 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 27
-    def vcode = (int)(((new Date().getTime()/1000) - 1451606400) / 10)
+    def vcode = (int) (((new Date().getTime() / 1000) - 1451606400) / 10)
     defaultConfig {
         applicationId "com.devannexe.makaut"
         minSdkVersion 15
         targetSdkVersion 27
         versionCode vcode
-        versionName "MAKAUT v1.0+"+vcode
+        versionName "MAKAUT v1.0+" + vcode
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -17,7 +17,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
 //        debug {
-         //   minifyEnabled true
+        //   minifyEnabled true
 //            proguardFiles getDefaultProguardFile('proguard-android.txt'),
 //                    'proguard-rules.pro'
 //        }
@@ -45,3 +45,4 @@ dependencies {
 }
 
 //apply plugin: 'com.google.gms.google-services'
+
