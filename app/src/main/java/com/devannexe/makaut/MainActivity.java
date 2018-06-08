@@ -59,22 +59,11 @@ public class MainActivity extends AppCompatActivity {
                 public void onAdFailedToLoad(int errorCode) {
                     // Code to be executed when an ad request fails.
                     mInterstitialAd.loadAd(new AdRequest.Builder().build());
-//                    onAdLoaded();
-
                     onAdClosed();
                 }
-
-//                @Override
-//                public void onAdClosed() {
-//                    Intent homeIntent = new Intent(MainActivity.this, portal_activity.class);
-//                    startActivity(homeIntent);
-//                    finish();
-//                }
             });
         } else {
-            // onAdClosed();
             mInterstitialAd.loadAd(new AdRequest.Builder().build());
-            //onAdLoaded();
             mInterstitialAd.setAdListener(new AdListener() {
                 public void onAdLoaded() {
                     mInterstitialAd.show();
@@ -83,12 +72,9 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onAdFailedToLoad(int errorCode) {
                     // Code to be executed when an ad request fails.
-                    //mInterstitialAd.loadAd(new AdRequest.Builder().build());
-                    //onAdLoaded();
                     Intent homeIntent = new Intent(MainActivity.this, activity_hub.class);
                     startActivity(homeIntent);
                     finish();
-                    //onAdClosed();
                 }
 
                 @Override

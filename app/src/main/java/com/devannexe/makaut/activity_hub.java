@@ -48,8 +48,6 @@ public class activity_hub extends AppCompatActivity {
         adview2.loadAd(adreq2);
         adview3.loadAd(adreq3);
 //        Bundle bundle = new Bundle();
-        //bundle.putString(FirebaseAnalytics.Param.ITEM_ID, id);
-        //bundle.putString(FirebaseAnalytics.Param.ITEM_NAME, name);
 //        bundle.putString(FirebaseAnalytics.Param.CONTENT_TYPE, "image");
 //        mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle);
         a = findViewById(R.id.item1);
@@ -61,7 +59,6 @@ public class activity_hub extends AppCompatActivity {
         g = findViewById(R.id.item7);
         h = findViewById(R.id.item8);
     }
-//
     public void onClick(View v) {
         Intent browserIntent = new Intent(getApplicationContext(), wv_activity.class);
         switch (v.getId()) {
@@ -69,42 +66,34 @@ public class activity_hub extends AppCompatActivity {
                 browserIntent.putExtra("url", getString(R.string.a_ADMIT_CARD));
                 startActivity(browserIntent);
                 break;
-//
             case R.id.item2:
                 browserIntent.putExtra("url", getString(R.string.b_EXAM_ROUTINE));
                 startActivity(browserIntent);
                 break;
-//
             case R.id.item3:
                 browserIntent.putExtra("url", getString(R.string.c_EXAM_FORM));
                 startActivity(browserIntent);
                 break;
-//
             case R.id.item4:
                 browserIntent.putExtra("url", getString(R.string.d_RESULTS));
                 startActivity(browserIntent);
                 break;
-//
             case R.id.item5:
                 browserIntent.putExtra("url", getString(R.string.e_PPR_PPS_FORM));
                 startActivity(browserIntent);
                 break;
-//
             case R.id.item6:
                 browserIntent.putExtra("url", getString(R.string.f_MEMBERS_AREA));
                 startActivity(browserIntent);
                 break;
-//
             case R.id.item7:
                 browserIntent.putExtra("url", getString(R.string.g_LETTERS_AND_NOTICES));
                 startActivity(browserIntent);
                 break;
-//
             case R.id.item8:
                 browserIntent.putExtra("url", getString(R.string.h_APPLICATION_AND_NOTICE));
                 startActivity(browserIntent);
                 break;
-//
         }
     }
 }

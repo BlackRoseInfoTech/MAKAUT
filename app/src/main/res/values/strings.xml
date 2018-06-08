@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">MAKAUT - Maulana Abul Kalam Azad University of Technology</string>
+    <string name="app_name_mini">MAKAUT</string>
+
+    <!--Sizes-->
+    <!--<dimen name="size1">80dp</dimen>-->
 
     <!--BackGround-->
 

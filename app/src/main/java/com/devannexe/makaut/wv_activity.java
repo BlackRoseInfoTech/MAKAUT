@@ -24,20 +24,15 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 
-import static android.icu.lang.UCharacter.GraphemeClusterBreak.T;
-import static com.google.firebase.crash.FirebaseCrash.log;
-import static com.google.firebase.crash.FirebaseCrash.report;
+//import static android.icu.lang.UCharacter.GraphemeClusterBreak.T;
+//import static com.google.firebase.crash.FirebaseCrash.log;
+//import static com.google.firebase.crash.FirebaseCrash.report;
 
 public class wv_activity extends AppCompatActivity {
     //Declaring Variables
     ProgressBar progress;
     AdView adView4;
     private WebView brow;
-
-
-    //Button go;
-    //SearchView urledit;
-    //ListView listView;
 
     @SuppressLint("SetJavaScriptEnabled")
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR1)
