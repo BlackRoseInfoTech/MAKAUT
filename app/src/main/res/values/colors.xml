@@ -31,4 +31,10 @@
     <!--SIZES-->
     <dimen name="size1">180dp</dimen>
 
+    <!--TEXT SIZES-->
+    <dimen name="text2">30sp</dimen>
+
+    <!--SIZES-->
+    <dimen name="size2">180dp</dimen>
+
 </resources>

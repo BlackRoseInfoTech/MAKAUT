@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "14931774316",
+    "firebase_url": "https://makaut-a913d.firebaseio.com",
+    "project_id": "makaut-a913d",
+    "storage_bucket": "makaut-a913d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14931774316:android:672375080dab412e",
+        "android_client_info": {
+          "package_name": "com.devannexe.makaut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14931774316-8r08vo9hv8le4c33cadu9lu0g32rbk45.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devannexe.makaut",
+            "certificate_hash": "c9c376bd8871b754805c5ee67606689b978f869c"
+          }
+        },
+        {
+          "client_id": "14931774316-00ac8e03d3a11gtsb6bs42m3qfmh55pj.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "14931774316-00ac8e03d3a11gtsb6bs42m3qfmh55pj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2t9FNA-uv6-czkSKmES4GjZSyckfqWn4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14931774316-00ac8e03d3a11gtsb6bs42m3qfmh55pj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
